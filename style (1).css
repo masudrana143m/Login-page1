@@ -1,0 +1,109 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url('https://i.pinimg.com/736x/77/82/6b/77826bf2ee2f893b3efa7c70676d88ff.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 30px 25px;
+  width: 300px;
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.login-box h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-box input {
+  
+  width: 80%;
+  padding: 12px 40px 12px 15px;
+  /* right padding for icon */
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background: transparent;
+  color: black;
+  font-size: 16px;
+  outline: none;
+}
+
+.input-box i {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 18px;
+}
+
+.input-box input::placeholder {
+  color: #fff;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px ;
+  font-size: 14px;
+}
+
+.remember input {
+  margin-right: 5px;
+}
+
+.remember a {
+  color: #fff;
+  text-decoration: underline;
+}
+.remember label{
+  position: relative;
+  margin-right: 50px;
+}
+
+.button {
+  margin-top: 10px;
+}
+
+#login {
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.last {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.last a {
+  color: #fff;
+  text-decoration: underline;
+  margin-left: 5px;
+}
